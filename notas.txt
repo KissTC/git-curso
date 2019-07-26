@@ -29,3 +29,14 @@ La RAMA se crea desde donde estoy
 Para crear una rama se usa 'Git Branch'
 Para moverse a la rama es con 'Git checkout <rama>'
 
+Crear llave SSH:
+ssh-keygen -t rsa -b 4096 -C 
+Verificar que el servidor de SSH este corriendo:
+eval $(ssh-agent -s)
+Agregar la llave privada:
+ssh-add ~/.ssh/id_rsa
+Ver los remotos:
+git remote -v 
+Agregar/Cambiar un remoto:
+git remote set-url origin <SSH>
+
