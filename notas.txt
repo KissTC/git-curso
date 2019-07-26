@@ -10,3 +10,16 @@ Cuando quiera traer una actualización porque alguien cambió algo es 'Git Fetch
 NOTA: Esto no lo copia en mis archivos, para que se haga tengo que fusionar, para fusionar y fetch al mismo tiempo
 uso 'Git Fetch'
 
+RAMAS:
+Haremos una nueva rama para crear el header de blog.html mientras que el body se queda en Master.
+Después fusionaremos las ramas del header con la de Master para tenerlo todo junto 'let's go'
+
+---
+
+Para movernos entre commits se usa 'Git checkout <commit>'
+
+-----
+
+Cuando creamos una RAMA, lo que se hace es que creamos una copia del último commit en otro lado
+Y todos los cambios que se hagan en esa rama no se verán en master
+
