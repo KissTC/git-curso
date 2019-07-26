@@ -1,0 +1,12 @@
+Repositorio remoto:
+    Github, Gitlab etc...
+
+Para traer los datos en vez de 'Git init' hacemos 'Git Clone'
+Esto nos traerá una copia del master y de los cambios historicos a mi Repositorio Local
+
+Cuando haga mis cambios envío los cambios al servidor remoto con 'Git Push'
+
+Cuando quiera traer una actualización porque alguien cambió algo es 'Git Fetch'
+NOTA: Esto no lo copia en mis archivos, para que se haga tengo que fusionar, para fusionar y fetch al mismo tiempo
+uso 'Git Fetch'
+
