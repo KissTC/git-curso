@@ -23,3 +23,9 @@ Para movernos entre commits se usa 'Git checkout <commit>'
 Cuando creamos una RAMA, lo que se hace es que creamos una copia del último commit en otro lado
 Y todos los cambios que se hagan en esa rama no se verán en master
 
+-----
+
+La RAMA se crea desde donde estoy
+Para crear una rama se usa 'Git Branch'
+Para moverse a la rama es con 'Git checkout <rama>'
+
